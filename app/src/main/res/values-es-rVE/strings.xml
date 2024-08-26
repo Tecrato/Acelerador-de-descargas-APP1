@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">API Edouard PC AdD</string>
+    <string name="action_settings">Configuraciones</string>
+    <string name="first_fragment_label">Primer fragmento</string>
+    <string name="second_fragment_label">Segundo fragmento</string>
+    <string name="next">Siguiente</string>
+    <string name="previous">Anterior</string>
+    <string name="Hojas">Hojas</string>
+    <string name="Salir">Salir</string>
+    <string name="Numero_hilos">Numero de hilos</string>
+    <string name="abrirPrograma">Abrir programa</string>
+    <string name="CerrarPrograma">Cerrar programa</string>
+    <string name="Cerrar_Proceso">Close proceso</string>
+    <string name="Cambiar">Cambiar</string>
+</resources>
