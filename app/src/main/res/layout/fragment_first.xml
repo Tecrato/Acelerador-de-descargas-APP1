@@ -17,7 +17,6 @@
             android:id="@+id/ButtonAbrirPrograma"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="48dp"
             android:text="@string/abrirPrograma"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.498"
@@ -35,24 +34,16 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/ButtonAbrirPrograma" />
 
-        <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/textInputLayout"
+        <EditText
+            android:id="@+id/input_ip"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="66dp"
             android:layout_marginTop="24dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button_sonido_1">
-
-            <EditText
-                android:autofillHints="username"
-                android:id="@+id/input_ip"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="ip"
-                android:hint="ip"
-                tools:ignore="HardcodedText" />
-        </com.google.android.material.textfield.TextInputLayout>
+            android:autofillHints="username"
+            android:hint="ip"
+            app:layout_constraintTop_toBottomOf="@+id/btn_go_to_add"
+            tools:ignore="HardcodedText"
+            tools:layout_editor_absoluteX="16dp" />
 
         <androidx.constraintlayout.widget.Guideline
             android:id="@+id/guideline"
@@ -67,9 +58,22 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="24dp"
             android:text="@string/Cambiar"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textInputLayout" />
+            app:layout_constraintTop_toBottomOf="@+id/input_ip"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <Button
+            android:id="@+id/btn_go_to_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="@string/ir_a_agregar_descarga"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button_sonido_1" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.core.widget.NestedScrollView>

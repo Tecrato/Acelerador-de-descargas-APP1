@@ -13,4 +13,8 @@
     <string name="CerrarPrograma">Cerrar programa</string>
     <string name="Cerrar_Proceso">Close proceso</string>
     <string name="Cambiar">Cambiar</string>
+    <string name="ir_a_agregar_descarga">Ir a agregar descarga</string>
+    <string name="nombre">Nombre</string>
+    <string name="buscar_informacion">Buscar Informacion</string>
+    <string name="Mandar">Enviar</string>
 </resources>

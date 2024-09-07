@@ -73,4 +73,8 @@
     <string name="CerrarPrograma">Close program</string>
     <string name="Cerrar_Proceso">Close process</string>
     <string name="Cambiar">Change</string>
+    <string name="ir_a_agregar_descarga">go to add download</string>
+    <string name="nombre">Name</string>
+    <string name="buscar_informacion">Search Information</string>
+    <string name="Mandar">Send</string>
 </resources>
